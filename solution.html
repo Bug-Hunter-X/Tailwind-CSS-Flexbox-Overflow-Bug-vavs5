@@ -1,0 +1,11 @@
+```html
+<div class="flex">
+  <div class="w-1/2 bg-gray-200 p-4 flex-shrink-0">
+    <!-- Content here -->
+  </div>
+  <div class="w-1/2 bg-gray-200 p-4 flex-shrink-0">
+    <!-- Content here -->
+  </div>
+</div>
+```
+Adding `flex-shrink-0` prevents the flex items from shrinking below their minimum size, ensuring that they don't collapse unexpectedly when content overflows. This avoids unexpected layout shifts and ensures consistent visual behavior.
