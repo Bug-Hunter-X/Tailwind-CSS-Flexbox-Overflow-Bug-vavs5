@@ -1,0 +1,11 @@
+```html
+<div class="flex">
+  <div class="w-1/2 bg-gray-200 p-4">
+    <!-- Content here -->
+  </div>
+  <div class="w-1/2 bg-gray-200 p-4">
+    <!-- Content here -->
+  </div>
+</div>
+```
+This code snippet uses Tailwind's `flex` utility class to create a horizontal layout. However, if the content within either div causes it to overflow, the layout can break unexpectedly, creating unwanted spacing or overlapping elements.  This is because `flex` items by default only take up as much space as their content requires.
